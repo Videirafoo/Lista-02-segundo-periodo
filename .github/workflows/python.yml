@@ -21,3 +21,6 @@ jobs:
 
       - name: Validate Python syntax
         run: python -m compileall -q .
+
+      - name: Validate exercise imports
+        run: python -c "import Main"
