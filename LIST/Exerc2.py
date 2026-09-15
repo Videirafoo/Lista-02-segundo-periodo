@@ -1,5 +1,4 @@
 def exerc02():
-    
     print()
     print("2. Percorrendo uma lista")
     print("Considere a lista numeros = [7, 12, 5, 18, 3, 20].")
@@ -17,5 +16,7 @@ def exerc02():
     for numero in numeros:
         if numero > 10:
             print(numero)
-if __name__ == "__Main__":
-    exerc2()
+
+
+if __name__ == "__main__":
+    exerc02()
