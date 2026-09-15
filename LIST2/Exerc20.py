@@ -1,14 +1,13 @@
-def exerc14():
-    
+def exerc20():
     print()
-    
     print("20. Problema real — Análise de vendas")
-    print("Uma empresa registrou as vendas de uma semana na lista") 
-    print("vendas = [1250, 980, 1430, 2100, 1750, 890, 1620]. Desenvolva um programa que calcule") 
-    print("o total vendido, a média diária, a maior e a menor venda, quantos dias ficaram acima da média e o percentual de dias acima da média.")
-    
+    print("Uma empresa registrou as vendas de uma semana na lista")
+    print("vendas = [1250, 980, 1430, 2100, 1750, 890, 1620].")
+    print("Calcule o total, a média diária, a maior e a menor venda,")
+    print("quantos dias ficaram acima da média e o percentual correspondente.")
+
     print()
-        
+
     vendas = [1250, 980, 1430, 2100, 1750, 890, 1620]
     total = 0
     maior = vendas[0]
@@ -36,8 +35,8 @@ def exerc14():
     print("Menor venda:", menor)
     print("Dias acima da média:", acima)
     print(f"Percentual acima da média: {percentual:.2f}%")
-
     print()
-    
+
+
 if __name__ == "__main__":
-    exerc14()
+    exerc20()
